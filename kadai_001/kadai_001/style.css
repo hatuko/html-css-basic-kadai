@@ -1,0 +1,68 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* header */
+header {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+  justify-content: space-between;
+}
+
+nav .myProfile {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
+}
+
+nav .about-works {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  list-style-type: none;
+
+}
+
+/* about */
+.about {
+  font-size: 34px;
+  display: flex;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+
+
+/* works */
+.works {
+  text-align: center;
+}
+
+
+.works-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* footer */
+footer {
+  font-size: 18px;
+  text-align: center;
+}
