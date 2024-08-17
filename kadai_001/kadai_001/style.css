@@ -4,55 +4,63 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+
 /* header */
 header {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #f5f5f5;
-  padding: 20px 0;
-  text-align: center;
+  font-size: 34px;
+  color: #000000;
+  display: flex;
+  max-width: 960px;
+  margin: 0;
   justify-content: space-between;
 }
 
-nav .myProfile {
-  list-style-type: none;
-  display: flex;
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-
+.MyProfile {
+  border: solid black;
+  color: #000000;
 }
 
 nav .about-works {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
   display: flex;
-  list-style-type: none;
-
+  list-style: none;
 }
+
 
 /* about */
-.about {
-  font-size: 34px;
+.about-contents {
+  padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 960px;
 }
 
-h2 {
+.content {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.name {
   font-size: 24px;
+  font-weight: bold;
+}
+
+#about {
+  font-size: 34px;
   text-align: center;
 }
 
-
-
+.photo {
+  border-radius: 140px 140px 140px 140px;
+}
 
 
 /* works */
-.works {
+#works {
+  font-size: 34px;
   text-align: center;
 }
-
 
 .works-flex {
   display: flex;
